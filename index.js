@@ -10,7 +10,9 @@ const displayProduct = (products) =>{
     productsContainer.innerHTML = "";
     for(let product of product){
         const  btnDiv = document.createElement("div");
-        btnDiv.innerHTML = ``;
+        btnDiv.innerHTML = `<button class="btn bg-gradient-to-r from-indigo-500 to-purple-600 border-none text-white px-6">
+          Shop Now
+        </button>`;
 
         productsContainer.append(btnDiv);
     }
